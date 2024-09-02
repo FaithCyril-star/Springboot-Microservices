@@ -1,9 +1,10 @@
 package com.javaguides.employee_Service.service;
 
-import com.javaguides.employee_Service.employeedto.EmployeeDto;
+import com.javaguides.employee_Service.dto.apiresponsedto.APIResponseDto;
+import com.javaguides.employee_Service.dto.employeedto.EmployeeDto;
 
 public interface EmployeeService {
     EmployeeDto save(EmployeeDto employeeDto);
 
-    EmployeeDto getEmployeeById(Long id);
+    APIResponseDto getEmployeeById(Long id);
 }

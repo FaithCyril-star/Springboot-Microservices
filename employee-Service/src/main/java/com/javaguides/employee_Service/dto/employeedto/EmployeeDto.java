@@ -1,4 +1,4 @@
-package com.javaguides.employee_Service.employeedto;
+package com.javaguides.employee_Service.dto.employeedto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,6 +14,7 @@ public class EmployeeDto {
     private String firstName;
     private String lastName;
     private String email;
+    private String departmentCode;
 }
 
 
